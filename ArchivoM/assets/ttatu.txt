@@ -1,0 +1,49 @@
+XYZ1. What is Android?
+YYY1.1. Android Operation System
+XYZ2. Security and permissions
+YYY2.1. Security concept in Android
+YYY2.2. Permission concept in Android
+XYZ3. Android applications and tasks
+YYY3.1. Application
+YYY3.2. Tasks across application borders
+XYZ4. Android user interface components
+YYY4.1. Activity
+YYY4.2. Fragments
+YYY4.3. Views and layout manager
+YYY4.4. Device configuration specific layouts
+XYZ5. Other Android components
+YYY5.1. Intents
+YYY5.2. Services
+YYY5.3. ContentProvider
+YYY5.4. BroadcastReceiver
+YYY5.5. Home screen and lock screen widgets
+YYY5.6. Live Wallpapers
+XYZ6. Android Development Tools
+YYY6.1. Android SDK
+YYY6.2. Android Development Tools
+YYY6.3. Dalvik Virtual Machine
+YYY6.4. How to develop Android Applications
+YYY6.5. Resource editors
+XYZ7. Android Application Architecture
+YYY7.1. AndroidManifest.xml
+YYY7.2. Activities and Lifecycle
+YYY7.3. Configuration Change
+XYZ8. Resources
+YYY8.1. Using resource files
+YYY8.2. Defining IDs
+XYZ9. Using Resources
+YYY9.1. Reference to resources in code
+YYY9.2. Reference to resources in XML files
+YYY9.3. Activities and layouts
+XYZ10. Assets
+YYY10.1. Whats are assets?
+YYY10.2. Accessing assets
+XYZ11. Installation
+YYY11.1. Options
+YYY11.2. Standalone ADT installation
+ZZZ11.2.1. Download
+ZZZ11.2.2. Standalone ADT installation
+XYZ12. Android virtual device - Emulator
+YYY12.1. What is the Android Emulator?
+YYY12.2. Google vs. Android AVD
+YYY12.3. Emulator Shortcuts

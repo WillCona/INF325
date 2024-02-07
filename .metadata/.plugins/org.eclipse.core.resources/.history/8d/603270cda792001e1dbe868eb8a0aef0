@@ -1,0 +1,71 @@
+package com.example.examenfinal;
+
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Toast;
+
+public class IndividualActivity extends Activity{
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.reporteindividual);
+		
+		
+	}
+	public void retornar(View vista){
+		finish();
+	}
+	
+	
+	
+	
+	
+	public String BajarDatos(String url){
+		InputStream pt = null;
+		String r = "";
+		try {
+			URL sitio = new URL(url);
+			HttpURLConnection uc = (HttpURLConnection) sitio.openConnection();
+			
+			pt = uc.getInputStream();
+			if (pt!=null) {
+				r = convierteString(pt);
+			}else{
+				r = "No hay conexion";
+			}
+		} catch (Exception e) {
+			Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
+		}
+		return r;	
+	
+	}
+
+	public String convierteString(InputStream bloque) throws IOException{
+		String res="";
+		BufferedReader br = new BufferedReader(new InputStreamReader(bloque));
+		String linea;
+		while ((linea = br.readLine()) != null) {
+			res = res + linea;
+		}
+		return res;
+	}
+	
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+}

@@ -1,0 +1,1543 @@
+!SESSION 2023-11-15 08:12:44.851 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+This is a continuation of log file C:\Users\WILLIAMS\Desktop\ProgVirtual\proyectos\.metadata\.bak_0.log
+Created Time: 2023-11-15 08:30:29.749
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-11-15 08:30:29.749
+!MESSAGE Failed to load properties file for project 'WebServices'
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:32:46.977
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:34:23.303
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for ArrayStoreException [in ArrayStoreException.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:34:23.344
+!MESSAGE Unknown javadoc format for ArrayStoreException [in ArrayStoreException.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:34:23.436
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for AssertionError [in AssertionError.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:34:23.436
+!MESSAGE Unknown javadoc format for AssertionError [in AssertionError.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:34:23.462
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for AsyncTask [in AsyncTask.class [in android.os [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:34:23.462
+!MESSAGE Unknown javadoc format for AsyncTask [in AsyncTask.class [in android.os [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:34:23.478
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for AsyncQueryHandler [in AsyncQueryHandler.class [in android.content [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:34:23.478
+!MESSAGE Unknown javadoc format for AsyncQueryHandler [in AsyncQueryHandler.class [in android.content [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:34:23.479
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Activity [in Activity.class [in android.app [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:34:23.479
+!MESSAGE Unknown javadoc format for Activity [in Activity.class [in android.app [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:34:23.480
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for AsynchronousCloseException [in AsynchronousCloseException.class [in java.nio.channels [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:34:23.480
+!MESSAGE Unknown javadoc format for AsynchronousCloseException [in AsynchronousCloseException.class [in java.nio.channels [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:34:23.480
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for AsyncPlayer [in AsyncPlayer.class [in android.media [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:34:23.480
+!MESSAGE Unknown javadoc format for AsyncPlayer [in AsyncPlayer.class [in android.media [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:34:41.144
+!MESSAGE Unknown javadoc format for Void {key=Ljava/lang/Void;} [in Void.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:34:42.479
+!MESSAGE Unknown javadoc format for Result {key=Ljavax/xml/transform/Result;} [in Result.class [in javax.xml.transform [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:34:43.445
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 969 2023-11-15 08:36:10.522
+!MESSAGE on(String[]) [in CargaZonas [in MainActivity [in [Working copy] MainActivity.java [in com.example.webservices [in src [in WebServices]]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2023-11-15 08:36:10.524
+!MESSAGE onP(String[]) [in CargaZonas [in MainActivity [in [Working copy] MainActivity.java [in com.example.webservices [in src [in WebServices]]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2023-11-15 08:36:26.649
+!MESSAGE onPostE(String[]) [in CargaZonas [in MainActivity [in [Working copy] MainActivity.java [in com.example.webservices [in src [in WebServices]]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2023-11-15 08:36:26.651
+!MESSAGE onPostExecutre(String[]) [in CargaZonas [in MainActivity [in [Working copy] MainActivity.java [in com.example.webservices [in src [in WebServices]]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2023-11-15 08:36:28.678
+!MESSAGE onPostExecute(String[]) [in CargaZonas [in MainActivity [in [Working copy] MainActivity.java [in com.example.webservices [in src [in WebServices]]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:36:58.136
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Text [in Text.class [in org.w3c.dom [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:36:58.136
+!MESSAGE Unknown javadoc format for Text [in Text.class [in org.w3c.dom [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:36:58.391
+!MESSAGE Unknown javadoc format for Text [in Text.class [in org.w3c.dom [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:36:59.163
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TextView [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:36:59.163
+!MESSAGE Unknown javadoc format for TextView [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:37:02.416
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TextView [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:37:02.416
+!MESSAGE Unknown javadoc format for TextView [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:37:42.869
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:39:40.321
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for InputBinding [in InputBinding.class [in android.view.inputmethod [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:39:40.321
+!MESSAGE Unknown javadoc format for InputBinding [in InputBinding.class [in android.view.inputmethod [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:39:44.112
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for InputSource [in InputSource.class [in org.xml.sax [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:39:44.112
+!MESSAGE Unknown javadoc format for InputSource [in InputSource.class [in org.xml.sax [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:39:44.824
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for InputStream [in InputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:39:44.824
+!MESSAGE Unknown javadoc format for InputStream [in InputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:39:45.306
+!MESSAGE Unknown javadoc format for InputStream [in InputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:40:05.308
+!MESSAGE Unknown javadoc format for Exception {key=Ljava/lang/Exception;} [in Exception.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:40:30.695
+!MESSAGE Unknown javadoc format for URL {key=Ljava/net/URL;} [in URL.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:40:30.735
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for URL [in URL.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:40:30.736
+!MESSAGE Unknown javadoc format for URL [in URL.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:40:31.640
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for URLClassLoader [in URLClassLoader.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:40:31.640
+!MESSAGE Unknown javadoc format for URLClassLoader [in URLClassLoader.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:40:31.759
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for URLConnection [in URLConnection.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:40:31.759
+!MESSAGE Unknown javadoc format for URLConnection [in URLConnection.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:41:06.022
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for HTTP [in HTTP.class [in org.apache.http.protocol [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:41:06.023
+!MESSAGE Unknown javadoc format for HTTP [in HTTP.class [in org.apache.http.protocol [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:41:07.554
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for HierarchyTraceType [in ViewDebug$HierarchyTraceType.class [in android.view [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:41:07.555
+!MESSAGE Unknown javadoc format for HierarchyTraceType [in ViewDebug$HierarchyTraceType.class [in android.view [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:41:08.098
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for HttpClientConnection [in HttpClientConnection.class [in org.apache.http [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:41:08.099
+!MESSAGE Unknown javadoc format for HttpClientConnection [in HttpClientConnection.class [in org.apache.http [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:41:08.312
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for HttpClientParams [in HttpClientParams.class [in org.apache.http.client.params [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:41:08.314
+!MESSAGE Unknown javadoc format for HttpClientParams [in HttpClientParams.class [in org.apache.http.client.params [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:41:08.403
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for HttpConnection [in HttpConnection.class [in org.apache.http [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:41:08.403
+!MESSAGE Unknown javadoc format for HttpConnection [in HttpConnection.class [in org.apache.http [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:41:13.838
+!MESSAGE Unknown javadoc format for HTTP [in HTTP.class [in org.apache.http.protocol [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:41:16.720
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for HttpUriRequest [in HttpUriRequest.class [in org.apache.http.client.methods [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:41:16.720
+!MESSAGE Unknown javadoc format for HttpUriRequest [in HttpUriRequest.class [in org.apache.http.client.methods [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:41:17.083
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for HttpURLConnection [in HttpURLConnection.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:41:17.083
+!MESSAGE Unknown javadoc format for HttpURLConnection [in HttpURLConnection.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:41:17.444
+!MESSAGE Unknown javadoc format for HttpURLConnection [in HttpURLConnection.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:41:24.477
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for HttpURLConnection [in HttpURLConnection.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:41:24.477
+!MESSAGE Unknown javadoc format for HttpURLConnection [in HttpURLConnection.class [in java.net [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:43:28.343
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:43:28.344
+!MESSAGE Unknown javadoc format for String [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:44:28.238
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for IOError [in IOError.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:44:28.239
+!MESSAGE Unknown javadoc format for IOError [in IOError.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:44:28.751
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for IOException [in IOException.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:44:28.752
+!MESSAGE Unknown javadoc format for IOException [in IOException.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:44:29.157
+!MESSAGE Unknown javadoc format for IOException [in IOException.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:31.315
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BufferedInputStream [in BufferedInputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:31.315
+!MESSAGE Unknown javadoc format for BufferedInputStream [in BufferedInputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:31.317
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BufferedHttpEntity [in BufferedHttpEntity.class [in org.apache.http.entity [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:31.318
+!MESSAGE Unknown javadoc format for BufferedHttpEntity [in BufferedHttpEntity.class [in org.apache.http.entity [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:31.319
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BufferedOutputStream [in BufferedOutputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:31.319
+!MESSAGE Unknown javadoc format for BufferedOutputStream [in BufferedOutputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:31.321
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BufferedHeader [in BufferedHeader.class [in org.apache.http.message [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:31.321
+!MESSAGE Unknown javadoc format for BufferedHeader [in BufferedHeader.class [in org.apache.http.message [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:31.323
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:31.323
+!MESSAGE Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:45:31.325
+!MESSAGE Unknown javadoc format for Buffer {key=Ljava/nio/Buffer;} [in Buffer.class [in java.nio [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:31.391
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Buffer [in Buffer.class [in java.nio [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:31.391
+!MESSAGE Unknown javadoc format for Buffer [in Buffer.class [in java.nio [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:39.022
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:39.022
+!MESSAGE Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:45:40.040
+!MESSAGE Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:46.295
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:46.296
+!MESSAGE Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:50.345
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:50.345
+!MESSAGE Unknown javadoc format for BufferedReader [in BufferedReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:45:53.837
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for InputStream [in InputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:45:53.838
+!MESSAGE Unknown javadoc format for InputStream [in InputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:46:14.117
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for InputStream [in InputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:46:14.118
+!MESSAGE Unknown javadoc format for InputStream [in InputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:46:23.913
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for InputStream [in InputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:46:23.914
+!MESSAGE Unknown javadoc format for InputStream [in InputStream.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:46:33.674
+!MESSAGE Unknown javadoc format for InputStreamReader {key=Ljava/io/InputStreamReader;} [in InputStreamReader.class [in java.io [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:58:37.781
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:58:37.781
+!MESSAGE Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:59:19.762
+!MESSAGE Unknown javadoc format for JSONException {key=Lorg/json/JSONException;} [in JSONException.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 08:59:36.547
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for JSONArray {key=Lorg/json/JSONArray;} [in JSONArray.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 08:59:36.548
+!MESSAGE Unknown javadoc format for JSONArray {key=Lorg/json/JSONArray;} [in JSONArray.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 08:59:36.809
+!MESSAGE Unknown javadoc format for JSONArray {key=Lorg/json/JSONArray;} [in JSONArray.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 09:00:36.051
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for JSONObject {key=Lorg/json/JSONObject;} [in JSONObject.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 09:00:36.051
+!MESSAGE Unknown javadoc format for JSONObject {key=Lorg/json/JSONObject;} [in JSONObject.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 09:02:54.654
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for JSONArray {key=Lorg/json/JSONArray;} [in JSONArray.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 09:02:54.654
+!MESSAGE Unknown javadoc format for JSONArray {key=Lorg/json/JSONArray;} [in JSONArray.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 09:11:30.908
+!MESSAGE Unknown javadoc format for JSONArray {key=Lorg/json/JSONArray;} [in JSONArray.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-15 09:11:31.326
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-15 09:11:31.326
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 09:15:28.756
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 09:18:57.072
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-15 09:19:06.111
+!MESSAGE Unknown javadoc format for JSONObject {key=Lorg/json/JSONObject;} [in JSONObject.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+!SESSION 2023-11-27 08:40:25.966 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-27 08:40:38.078
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\WILLIAMS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-11-27 08:41:39.579
+!MESSAGE Failed to load properties file for project 'WebServicesAdd'
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 08:53:00.445
+!MESSAGE Unknown javadoc format for Override {key=Ljava/lang/Override;} [in Override.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 08:55:23.184
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 08:55:23.231
+!MESSAGE Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 08:55:23.436
+!MESSAGE Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 08:55:31.450
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for JSONException {key=Lorg/json/JSONException;} [in JSONException.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 08:55:31.450
+!MESSAGE Unknown javadoc format for JSONException {key=Lorg/json/JSONException;} [in JSONException.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:07:00.623
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:07:00.623
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:07:07.196
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:07:07.196
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:07:08.595
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:07:11.852
+!MESSAGE Unknown javadoc format for FindListener {key=Landroid/webkit/WebView$FindListener;} [in WebView$FindListener.class [in android.webkit [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:07:46.931
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for FutureTask [in FutureTask.class [in java.util.concurrent [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:07:46.931
+!MESSAGE Unknown javadoc format for FutureTask [in FutureTask.class [in java.util.concurrent [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:07:53.491
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for id [in R$id.class [in android [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:07:53.491
+!MESSAGE Unknown javadoc format for id [in R$id.class [in android [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:07:54.845
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for id [in R$id.class [in android [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:07:54.845
+!MESSAGE Unknown javadoc format for id [in R$id.class [in android [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:08:08.507
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:08:08.507
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:10:22.076
+!MESSAGE Unknown javadoc format for Override {key=Ljava/lang/Override;} [in Override.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:10:22.186
+!MESSAGE Unknown javadoc format for Override {key=Ljava/lang/Override;} [in Override.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:10:25.049
+!MESSAGE Unknown javadoc format for HttpGet {key=Lorg/apache/http/client/methods/HttpGet;} [in HttpGet.class [in org.apache.http.client.methods [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:16:02.859
+!MESSAGE Unknown javadoc format for View {key=Landroid/view/View;} [in View.class [in android.view [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:16:12.572
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:16:12.572
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:16:13.734
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:16:19.234
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:16:19.234
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:19:49.420
+!MESSAGE Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:19:49.420
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:19:49.420
+!MESSAGE Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:25:19.160
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:25:19.160
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:39:42.661
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:39:42.662
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:41:10.812
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:41:10.813
+!MESSAGE Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:41:12.152
+!MESSAGE Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:41:19.050
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:41:19.051
+!MESSAGE Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-27 09:42:06.246
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for View [in View.class [in android.view [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-27 09:42:06.247
+!MESSAGE Unknown javadoc format for View [in View.class [in android.view [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:45:07.378
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-27 09:48:49.718
+!MESSAGE Unknown javadoc format for Override {key=Ljava/lang/Override;} [in Override.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+!SESSION 2023-11-28 23:36:08.329 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-28 23:36:31.240
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\WILLIAMS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 4 2023-11-28 23:41:09.203
+!MESSAGE Exception occurred while saving project preferences: /WebServiceAdd/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\WILLIAMS\Downloads\Telegram Desktop\android 325\WebServiceAdd\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2951)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:441)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2023-11-28 23:41:09.203
+!MESSAGE A resource already exists on disk 'C:\Users\WILLIAMS\Downloads\Telegram Desktop\android 325\WebServiceAdd\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2023-11-28 23:41:09.203
+!MESSAGE Exception occurred while saving project preferences: /WebServiceAdd/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\WILLIAMS\Downloads\Telegram Desktop\android 325\WebServiceAdd\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2951)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:443)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2023-11-28 23:41:09.203
+!MESSAGE A resource already exists on disk 'C:\Users\WILLIAMS\Downloads\Telegram Desktop\android 325\WebServiceAdd\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2023-11-28 23:41:09.203
+!MESSAGE Exception occurred while saving project preferences: /WebServiceAdd/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\WILLIAMS\Downloads\Telegram Desktop\android 325\WebServiceAdd\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2951)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:445)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:350)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:268)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:790)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:626)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:559)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:371)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2023-11-28 23:41:09.203
+!MESSAGE A resource already exists on disk 'C:\Users\WILLIAMS\Downloads\Telegram Desktop\android 325\WebServiceAdd\.settings'.
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-28 23:50:01.483
+!MESSAGE Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-28 23:50:01.586
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-28 23:50:01.587
+!MESSAGE Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-28 23:52:23.498
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-28 23:52:23.498
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-28 23:56:22.354
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-28 23:56:25.488
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-28 23:56:25.488
+!MESSAGE Unknown javadoc format for TextView {key=Landroid/widget/TextView;} [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-28 23:56:56.817
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-28 23:56:56.817
+!MESSAGE Unknown javadoc format for String {key=Ljava/lang/String;} [in String.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-29 00:05:15.201
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-29 00:05:15.201
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-29 00:05:22.087
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-29 00:05:22.087
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-29 00:05:23.011
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-29 00:05:28.503
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:95)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:75)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:58)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-29 00:05:28.504
+!MESSAGE Unknown javadoc format for EditText [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-29 00:06:37.222
+!MESSAGE Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-29 00:09:09.492
+!MESSAGE Unknown javadoc format for Exception {key=Ljava/lang/Exception;} [in Exception.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-29 00:11:54.558
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-29 00:11:54.558
+!MESSAGE Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-29 00:11:54.692
+!MESSAGE Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-29 00:11:56.579
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-29 00:11:56.579
+!MESSAGE Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-11-29 00:15:32.035
+!MESSAGE No command output when running: 'am start -n com.example.webservicesadd/com.example.webservicesadd.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER' on device emulator-5554
+!STACK 0
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:408)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:453)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:67)
+	at com.android.ide.eclipse.adt.internal.launch.ActivityLaunchAction.doLaunchAction(ActivityLaunchAction.java:109)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1277)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.doLaunchAction(AndroidLaunchController.java:1289)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launchApp(AndroidLaunchController.java:1261)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.simpleLaunch(AndroidLaunchController.java:906)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.continueLaunch(AndroidLaunchController.java:748)
+	at com.android.ide.eclipse.adt.internal.launch.AndroidLaunchController.launch(AndroidLaunchController.java:570)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.doLaunch(LaunchConfigDelegate.java:322)
+	at com.android.ide.eclipse.adt.internal.launch.LaunchConfigDelegate.launch(LaunchConfigDelegate.java:238)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-29 00:22:08.574
+!MESSAGE Unknown javadoc format for JSONArray [in JSONArray.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-29 00:25:24.022
+!MESSAGE Unknown javadoc format for JSONArray [in JSONArray.class [in org.json [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-29 00:25:33.224
+!MESSAGE Unknown javadoc format for Integer {key=Ljava/lang/Integer;} [in Integer.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-29 00:25:34.944
+!MESSAGE Unknown javadoc format for Double {key=Ljava/lang/Double;} [in Double.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-29 00:27:50.641
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for TextView [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-29 00:27:50.641
+!MESSAGE Unknown javadoc format for TextView [in TextView.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-11-29 00:38:44.760
+!MESSAGE Unknown javadoc format for Toast {key=Landroid/widget/Toast;} [in Toast.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2023-11-29 00:39:23.346
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for EditText {key=Landroid/widget/EditText;} [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:77)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:462)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:621)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:567)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:559)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:142)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2023-11-29 00:39:23.347
+!MESSAGE Unknown javadoc format for EditText {key=Landroid/widget/EditText;} [in EditText.class [in android.widget [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]
+!SESSION 2023-11-29 08:13:46.261 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-11-29 08:13:58.125
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\WILLIAMS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-12-04 08:14:53.481 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-04 08:15:07.445
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\WILLIAMS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-12-04 08:30:27.939
+!MESSAGE Failed to load properties file for project 'ExamenFinal'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-12-04 09:12:13.605
+!MESSAGE reportetotal.xml: ScrollView can host only one direct child
+!STACK 0
+java.lang.IllegalStateException: ScrollView can host only one direct child
+	at android.widget.ScrollView.addView(ScrollView.java:250)
+	at android.view.LayoutInflater.rInflate_Original(LayoutInflater.java:750)
+	at android.view.LayoutInflater_Delegate.rInflate(LayoutInflater_Delegate.java:64)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:718)
+	at android.view.LayoutInflater.rInflate_Original(LayoutInflater.java:749)
+	at android.view.LayoutInflater_Delegate.rInflate(LayoutInflater_Delegate.java:64)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:718)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:489)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:372)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.inflate(RenderSessionImpl.java:385)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:332)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:325)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:440)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.renderWithBridge(GraphicalEditorPart.java:1545)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.recomputeLayout(GraphicalEditorPart.java:1302)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.onXmlModelChanged(GraphicalEditorPart.java:1260)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegateXmlModelChanged(LayoutEditorDelegate.java:402)
+	at com.android.ide.eclipse.adt.internal.editors.common.CommonXmlEditor.xmlModelChanged(CommonXmlEditor.java:329)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor$XmlModelStateListener.modelChanged(AndroidXmlEditor.java:1653)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.wrapEditXmlModel(AndroidXmlEditor.java:1114)
+	at com.android.ide.eclipse.adt.internal.editors.AndroidXmlEditor.wrapUndoEditXmlModel(AndroidXmlEditor.java:1190)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.OutlineDropListener.performDrop(OutlineDropListener.java:125)
+	at org.eclipse.jface.viewers.ViewerDropAdapter.drop(ViewerDropAdapter.java:276)
+	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:90)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:774)
+	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:456)
+	at org.eclipse.swt.dnd.DropTarget$3.method6(DropTarget.java:258)
+	at org.eclipse.swt.internal.ole.win32.COMObject.callback6(COMObject.java:119)
+	at org.eclipse.swt.internal.ole.win32.COM.DoDragDrop(Native Method)
+	at org.eclipse.swt.dnd.DragSource.drag(DragSource.java:363)
+	at org.eclipse.swt.dnd.DragSource.access$0(DragSource.java:289)
+	at org.eclipse.swt.dnd.DragSource$1.handleEvent(DragSource.java:172)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SESSION 2023-12-04 10:07:13.647 -----------------------------------------------
+eclipse.buildId=v21.1.0-569685
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_MX
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-04 10:07:28.601
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\WILLIAMS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 1009 2023-12-04 10:11:16.621
+!MESSAGE Unknown javadoc format for Integer [in Integer.class [in java.lang [in C:\Users\WILLIAMS\Desktop\ProgVirtual\adt-bundle-windows-x86-20130219\sdk\platforms\android-17\android.jar]]]

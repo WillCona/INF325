@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change Layout" description="Change Layout" file="/CooperativaBD2_3/res/layout/layout_depto.xml" flags="6" flatten="true" id="com.android.ide.eclipse.adt.refactoring.convert" proj="/CooperativaBD2_3" sel-end="258" sel-start="40" stamp="1699879477368" type="android.widget.LinearLayout"/>
+</session>

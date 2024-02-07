@@ -1,0 +1,239 @@
+XYZ1. What is Android? 
+YYY1.1. Android Operation System 
+Android is an operating system based on Linux with a Java programming interface. 
+The Android Software Development Kit (Android SDK) provides all necessary tools to develop Android applications. This includes a compiler, debugger and a device emulator, as well as its own virtual machine to run Android programs. 
+Android is currently primarily developed by Google. 
+Android allows background processing, provides a rich user interface library, supports 2-D and 3-D graphics using the OpenGL libraries, access to the file system and provides an embedded SQLite database. 
+Android applications consist of different components and can re-use components of other applications. This leads to the concept of a task in Android; an application can re-use other Android components to archive a task. For example you can trigger from your application another application which has itself registered with the Android system to handle photos. In this other application you select a photo and return to your application to use the selected photo. 
+YYY1.2. Google Play (Android Market) 
+Google offers the Google Play service in which programmers can offer their Android application to Android users. Google phones include the Google Play application which allows to install applications. 
+Google Play also offers an update service, e.g. if a programmer uploads a new version of his application to Google Play, this service will notify existing users that an update is available and allow to install it. 
+Google Play used to be called Android Market. 
+XYZ2. Security and permissions 
+YYY2.1. Security concept in Android 
+During deployment on an Android device, the Android system will create a unique user and group ID for every Android application. Each application file is private to this generated user, e.g. other applications cannot access these files. 
+In addition each Android application will be started in its own process. 
+Therefore by means of the underlying Linux operating system, every Android application is isolated from other running applications. 
+If data should be shared, the application must do this explicitly, e.g. via a service or a content provider. 
+YYY2.2. Permission concept in Android 
+Android also contains a permission system. Android predefines permissions for certain tasks but every application can define additional permissions. 
+An Android application declare its required permissions in its AndroidManifest.xml configuration file. For example an application may declare that it requires access to the Internet. 
+Permissions have different levels. Some permissions are automatically granted by the Android system, some are automatically rejected. 
+In most cases the requested permissions will be presented to the user before installation of the application. The user needs to decide if these permissions are given to the application. 
+If the user denies a permission required by the application, this application cannot be installed. The check of the permission is only performed during installation, permissions cannot be denied or granted after the installation. 
+Not all users pay attention to the required permissions during installation. But some users do and they write negative reviews on Google Play. 
+XYZ3. Android applications and tasks 
+YYY3.1. Application 
+An Android application consists out of different Android components and additional resources. The Android system knows activities, services, broadcast receiver and content provider as components. 
+YYY3.2. Tasks across application borders 
+Android application components can connect to components of other Android applications to create tasks. For example an application which allows you to make a photo can start an email application and instruct this application to create a new email and attach a photo to this email. 
+XYZ4. Android user interface components 
+The following description gives a overview of the most important user interface related component and parts of an Android application. 
+YYY4.1. Activity 
+An activity represents the visual representation of an Android application. activities use views, i.e. user interface widgets as for example buttons and fragments to create the user interface and to interact with the user. 
+An Android application can have several activities. 
+YYY4.2. Fragments 
+Fragments are components which run in the context of an activity. A fragment encapsulates application code so that it is easier to reuse it and to support different sized devices. 
+Fragments are optional components which allow you to reuse user interface and non user interface components for different devices configurations. 
+YYY4.3. Views and layout manager 
+Views are user interface widgets, e.g. buttons or text fields. The base class for all views is the android.view.View class. Views have attributes which can be used to configure their appearance and behavior. 
+A layout manager is responsible for arranging other views. The base class for these layout managers is the android.view.ViewGroup class which extends the View class. 
+Layout managers can be nestled to create complex layouts. You should avoid nestling them too deeply as this has a negative impact on the performance. 
+YYY4.4. Device configuration specific layouts 
+The user interface for Activities is typcally defined via XML files (layout files). It is possible to define defined layout file for different device configuration, e.g. based on the available width of the actual device running the application. 
+Fragments are designed to support such a setup. 
+The following pictures shows an activity called MainActivity. On a smaller screen it shows one fragment and allows that the user navigates to another fragment. On a wide screen it shows two fragments. 
+XZY5. Other Android components 
+Android has several more components which can be used in your Android application. 
+YYY5.1. Intents 
+Intents are asynchronous messages which allow the application to request functionality from other Android components, e.g. from services or activities. 
+An application can call a component directly (explicit Intent) or ask the Android system to evaluate registered components based on the intent data (implicit intents). For example the application could implement sharing of data via an intent and all components which allow sharing of data would be available for the user to select. Applications register themselves to an intent via an intent filter. 
+Intents allow an Android application to start and to interact with components from other Android applications. 
+YYY5.2. Services 
+Services perform tasks without providing a user interface. They can communicate with other Android components and notify the user via the notification framework in Android. 
+YYY5.3. ContentProvider 
+A content provider provides a structured interface to application data. Via a content provider your application can share data with other applications. Android contains an SQLite database which is frequently used in conjunction with a content provider. The SQLite database would store the data, which would be accessed via the content provider. 
+YYY5.4. BroadcastReceiver 
+broadcast receivers can be registered to receive system messages and intents. A broadcast receiver gets notified by the Android system, if the specified event occurs. 
+For example you can register a broadcast receivers for the event that the Android system completed the boot processor or for the event that the state of the phone changes, e.g. someone is calling. 
+YYY5.5. Home screen and lock screen widgets 
+Widgets are interactive components which are primarily used on the Android homescreen. They typically display some kind of data and allow the user to perform actions via them. For example a widget could display a short summary of new emails and if the user selects an email, it could start the email application with the selected email. 
+YYY5.6. Live Wallpapers 
+Live wallpapers allow you to create animated backgrounds for the Android home screen. 
+XYZ6. Android Development Tools 
+YYY6.1. Android SDK 
+The Android Software Development Kit (SDK) contains the necessary tools to create, compile and package Android application. Most of these tools are command line based. 
+The Android SDK also provides an Android device emulator, so that Android applications can be tested without a real Android phone. You can create Android virtual devices (AVD) via the Android SDK, which run in this emulator. 
+The Android SDK contains the Android debug bridge (adb) tool which allows to connect to an virtual or real Android device. 
+YYY6.2. Android Development Tools 
+Google provides the Android Development Tools (ADT) to develop Android applications with Eclipse. ADT is a set of components (plug-ins) which extend the Eclipse IDE with Android development capabilities. 
+ADT contains all required functionalities to create, compile, debug and deploy Android applications from the Eclipse IDE. ADT also allows to create and start AVDs. 
+The Android Development Tools (ADT) provides specialized editors for resources files, e.g. layout files. These editors allow to switch between the XML representation of the file and a richer user interface via tabs on the bottom of the editor. 
+YYY6.3. Dalvik Virtual Machine 
+The Android system uses a special virtual machine, i.e. the Dalvik Virtual Machine to run Java based applications. Dalvik uses an own bytecode format which is different from Java bytecode. 
+Therefore you cannot directly run Java class files on Android, they need to get converted in the Dalvik bytecode format. 
+YYY6.4. How to develop Android Applications 
+Android applications are primarily written in the Java programming language. The Java source files are converted to Java class files by the Java compiler. 
+The Android SDK contains a tool called dx which converts Java class files into a .dex (Dalvik Executable) file. All class files of one application are placed in one compressed .dex file. During this conversion process redundant information in the class files are optimized in the .dex file. For example if the same String is found in different class files, the .dex file contains only once reference of this String. 
+These dex files are therefore much smaller in size than the corresponding class files. 
+The .dex file and the resources of an Android project, e.g. the images and XML files, are packed into an .apk (Android Package) file. The program aapt (Android Asset Packaging Tool) performs this packaging. 
+The resulting .apk file contains all necessary data to run the Android application and can be deployed to an Android device via the adb tool. 
+The Android Development Tools (ADT) performs these steps transparently to the user. 
+If you use the ADT tooling you press a button the whole Android application (.apk file) will be created and deployed. 
+YYY6.5. Resource editors 
+The ADT allows the developer to define certain artifacts, e.g. Strings and layout files, in two ways: via a rich editor, and directly via XML. This is done via multi-page editors in Eclipse. In these editors you can switch between both representations by clicking on the tab on the lower part of the screen. 
+For example if you open the res/layout/main.xml file in the Package Explorer View of Eclipse, you can switch between the two representations as depicted in the following screenshot. 
+XYZ7. Android Application Architecture 
+YYY7.1. AndroidManifest.xml 
+The components and settings of an Android application are described in the AndroidManifest.xml file. For example all activities and services of the application must be declared in this file. 
+It must also contain the required permissions for the application. For example if the application requires network access it must be specified here. 
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="de.vogella.android.temperature"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Convert"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+    <uses-sdk android:minSdkVersion="9" />
+
+</manifest> 
+The package attribute defines the base package for the Java objects referred to in this file. If a Java object lies within a different package, it must be declared with the full qualified package name. 
+Google Play requires that every Android application uses its own unique package. Therefore it is a good habit to use your reverse domain name as package name. This will avoid collisions with other Android applications. 
+android:versionName and android:versionCode specify the version of your application. versionName is what the user sees and can be any String. 
+versionCode must be an integer. The Android Market determine based on the versionCode, if it should perform an update of the applications for the existing installations. You typically start with "1" and increase this value by one, if you roll-out a new version of your application. 
+The <activity> tag defines an activity, in this example pointing to the Convert class in the de.vogella.android.temperature package. An intent filter is registered for this class which defines that this activity is started once the application starts (action android:name="android.intent.action.MAIN" ). The category definition category android:name="android.intent.category.LAUNCHER" defines that this application is added to the application directory on the Android device. 
+The @string/app_name value refers to resource files which contain the actual value of the application name. The usage of resource file makes it easy to provide different resources, e.g. strings, colors, icons, for different devices and makes it easy to translate applications. 
+The uses-sdk part of the AndroidManifest.xml file defines the minimal SDK version for which your application is valid. This will prevent your application being installed on unsupported devices. 
+YYY7.2. Activities and Lifecycle 
+The Android system controls the lifecycle of your application. At any time the Android system may stop or destroy your application, e.g. because of an incoming call. The Android system defines a lifecycle for activities via predefined methods. The most important methods are: 
+* onSaveInstanceState() - called after the activity is stopped. Used to save data so that the activity can restore its states if re-started 
+* onPause() - always called if the activity ends, can be used to release resource or save data 
+* onResume() - called if the activity is re-started, can be used to initialize fields 
+YYY7.3. Configuration Change 
+An activity will also be restarted, if a so called "configuration change" happens. A configuration change happens if an event is triggered which may be relevant for the application. For example if the user changes the orientation of the device (vertically or horizontally). Android assumes that an activity might want to use different resources for these orientations and restarts the activity. 
+In the emulator you can simulate the change of the orientation via Ctrl+F11. 
+You can avoid a restart of your application for certain configuration changes via the configChanges attribute on your activity definition in your AndroidManifest.xml. The following activity will not be restarted in case of orientation changes or position of the physical keyboard (hidden / visible). 
+<activity android:name=".ProgressTestActivity"
+     android:label="@string/app_name"
+     android:configChanges="orientation|keyboardHidden|keyboard">
+</activity> 
+YYY7.4. Context 
+The class android.content.Context provides the connection to the Android system and the resources of the project. It is the interface to global information about the application environment. 
+The Context also provides access to Android services, e.g. the Location Service. 
+Activities and services extend the Context class. 
+XYZ8. Resources 
+YYY8.1. Using resource files 
+Android supports that resources, like images and certain XML configuration files, can be keep separate from the source code. 
+These resources must be defined in the res directory in a special folder dependent on their purpose. You can also append additional qualifiers to the folder name to indicate that the related resources should be used for special configurations, e.g. you can specify that a resource is only valid for a certain screen size. 
+The gen directory in an Android project contains generated values. R.java is a generated class which contains references to certain resources of the project. 
+If you create a new resource, the corresponding reference is automatically created in R.java via the Eclipse ADT tools. These references are static integer values and define IDs for the resources. 
+The Android system provides methods to access the corresponding resource via these IDs. 
+For example to access a String with the R.string.yourString ID, you would use the getString(R.string.yourString)) method. 
+R.java is automatically created by the Eclipse development environment, manual changes are not necessary and will be overridden by the tooling. 
+YYY8.2. Defining IDs 
+Android allows that you define ID of user interface components dynamically in the layout files, via the @+id/your_id notation. 
+To control your IDs you can also create a file called ids.xml in your /res/values folder and define all IDs in this file. 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="button1" type="id"/>
+
+</resources> 
+This allow you to use the ID directly in your layout file. 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="27dp"
+        android:text="Button" />
+
+</RelativeLayout> 
+XYZ9. Using Resources 
+YYY9.1. Reference to resources in code 
+The Resources class allows to access individual resources. An instance of Resources can get access via the getResources() method of the Context class. 
+The Resources class is also used by other Android classes, for example the following code shows how to create a Bitmap file from a reference ID. 
+BitmapFactory.decodeResource(getResources(), R.drawable.ic_action_search); 
+YYY9.2. Reference to resources in XML files 
+In your XML files, for example your layout files, you can refer to other resources via the @ sign. 
+For example, if you want to refer to a color which is defined in a XML resource, you can refer to it via @color/your_id. Or if you defined a "hello" string in an XML resource, you could access it via @string/hello. 
+YYY9.3. Activities and layouts 
+The user interface for activities is defined via layouts. The layout defines the included Views (widgets) and their properties. 
+A layout can be defined via Java code or via XML. In most cases the layout is defined as an XML file. 
+XML based layouts are defined via a resource file in the /res/layout folder. This file specifies the ViewGroups, Views, their relationship and their attributes for this specific layout. 
+If a View needs to be accessed via Java code, you have to give the View a unique ID via the android:id attribute. To assign a new ID to a View use . The following shows an example in which a @+id/yourvalue Button gets the button1 ID assigned. 
+<Button
+  android:id="@+id/button1"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Show Preferences" >
+</Button> 
+By conversion this will create and assign a new yourvalue ID to the corresponding View. In your Java code you can later access a View via the method findViewById(R.id.yourvalue). 
+Defining layouts via XML is usually the preferred way as this separates the programming logic from the layout definition. It also allows the definition of different layouts for different devices. You can also mix both approaches. 
+XYZ10. Assets 
+YYY10.1. Whats are assets? 
+While the res directory contains structured values which are known to the Android platform, the assets directory can be used to store any kind of data. 
+YYY10.2. Accessing assets 
+You access this data via the AssetsManager which you can access the getAssets() method. 
+The AssetsManager class allows to read a file in the assets folder as InputStream with the open() method. The following code shows an example for this. 
+// Get the AssetManager
+    AssetManager manager = getAssets();
+
+    // Read a Bitmap from Assets
+    InputStream open = null;
+    try {
+      open = manager.open("logo.png");
+      Bitmap bitmap = BitmapFactory.decodeStream(open);
+      // Assign the bitmap to an ImageView in this layout
+      ImageView view = (ImageView) findViewById(R.id.imageView1);
+      view.setImageBitmap(bitmap);
+    } catch (IOException e) {
+      e.printStackTrace();
+    } finally {
+      if (open != null) {
+        try {
+          open.close();
+        } catch (IOException e) {
+          e.printStackTrace();
+        }
+      }
+    } 
+XYZ11. Installation 
+YYY11.1. Options 
+You have different options to install the Android development tools. The simplest way is to download a full packaged pre-configured Eclipse. 
+For other options please see Android installation 
+YYY11.2. Standalone ADT installation 
+ZZZ11.2.1. Download 
+Google provides a pre-packaged and configured Eclipse based Android development environment. The following link allows to download a archive file which includes all required tools for Android development. 
+http://developer.android.com/sdk/index.html 
+ZZZ11.2.2. Standalone ADT installation 
+Extract the zip file and start Eclipse from the eclipse folder via the eclipse native launcher, e.g. eclipse.exe under Windows. 
+XYZ12. Android virtual device - Emulator 
+YYY12.1. What is the Android Emulator? 
+The Android Development Tools (ADT) include an emulator to run an Android system. The emulator behaves like a real Android device (in most cases) and allows you to test your application without having a real device. 
+You can configure the version of the Android system you would like to run, the size of the SD card, the screen resolution and other relevant settings. You can define several of them with different configurations. 
+These devices are called Android Virtual Device and you can start several in parallel. 
+YYY12.2. Google vs. Android AVD 
+During the creation of an AVD you decide if you want an Android device or a Google device. 
+An AVD created for Android will contain the programs from the Android Open Source Project. An AVD created for the Google API's will also contain several Google applications, most notable the Google Maps application. 
+If you want to use functionality which is only provided via the Google API's, e.g. Google Maps you must run this application on an AVD with Google API's. 
+YYY12.3. Emulator Shortcuts 
+The following shortcuts are useful for working with the emulator. 
+Alt+Enter Maximizes the emulator. Nice for demos. 
+Ctrl+F11 changes the orientation of the emulator. 
+F8 Turns network on / off. 

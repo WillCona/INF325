@@ -1,0 +1,21 @@
+package com.example.examenfinal;
+
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+
+public class IndividualActivity extends Activity{
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.reporteindividual);
+		
+		
+	}
+	public void retornar(View vista){
+		finish();
+	}
+	
+}
